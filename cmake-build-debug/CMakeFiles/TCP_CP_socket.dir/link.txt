@@ -1,0 +1,2 @@
+/usr/bin/ar qc libTCP_CP_socket.a  CMakeFiles/TCP_CP_socket.dir/library.c.o
+/usr/bin/ranlib libTCP_CP_socket.a

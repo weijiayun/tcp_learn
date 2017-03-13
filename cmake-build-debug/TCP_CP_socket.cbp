@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="TCP_CP_socket"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/weijiayun/CLionProjects/TCP_CP_socket/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/weijiayun/CLionProjects/TCP_CP_socket/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/weijiayun/CLionProjects/TCP_CP_socket/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/weijiayun/CLionProjects/TCP_CP_socket/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/weijiayun/CLionProjects/TCP_CP_socket/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/weijiayun/CLionProjects/TCP_CP_socket/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/weijiayun/CLionProjects/TCP_CP_socket/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/weijiayun/CLionProjects/TCP_CP_socket/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/weijiayun/CLionProjects/TCP_CP_socket/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/weijiayun/CLionProjects/TCP_CP_socket/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/weijiayun/CLionProjects/TCP_CP_socket/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/weijiayun/CLionProjects/TCP_CP_socket/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/weijiayun/CLionProjects/TCP_CP_socket/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/weijiayun/CLionProjects/TCP_CP_socket/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/weijiayun/CLionProjects/TCP_CP_socket/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="TCP_CP_socket">
+				<Option output="/home/weijiayun/CLionProjects/TCP_CP_socket/cmake-build-debug/libTCP_CP_socket.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/weijiayun/CLionProjects/TCP_CP_socket/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.4.7/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/opt/Apps/local/gcc-4.7.4/lib/gcc/x86_64-unknown-linux-gnu/4.7.4/../../../../include/c++/4.7.4"/>
+					<Add directory="/opt/Apps/local/gcc-4.7.4/lib/gcc/x86_64-unknown-linux-gnu/4.7.4/../../../../include/c++/4.7.4/x86_64-unknown-linux-gnu"/>
+					<Add directory="/opt/Apps/local/gcc-4.7.4/lib/gcc/x86_64-unknown-linux-gnu/4.7.4/../../../../include/c++/4.7.4/backward"/>
+					<Add directory="/opt/Apps/local/gcc-4.7.4/lib/gcc/x86_64-unknown-linux-gnu/4.7.4/include"/>
+					<Add directory="/opt/Apps/local/gcc-4.7.4/include"/>
+					<Add directory="/opt/Apps/local/gcc-4.7.4/lib/gcc/x86_64-unknown-linux-gnu/4.7.4/include-fixed"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/weijiayun/CLionProjects/TCP_CP_socket/cmake-build-debug/Makefile&quot;  VERBOSE=1 TCP_CP_socket"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/weijiayun/CLionProjects/TCP_CP_socket/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/weijiayun/CLionProjects/TCP_CP_socket/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/weijiayun/CLionProjects/TCP_CP_socket/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="TCP_CP_socket/fast">
+				<Option output="/home/weijiayun/CLionProjects/TCP_CP_socket/cmake-build-debug/libTCP_CP_socket.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/weijiayun/CLionProjects/TCP_CP_socket/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.4.7/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/opt/Apps/local/gcc-4.7.4/lib/gcc/x86_64-unknown-linux-gnu/4.7.4/../../../../include/c++/4.7.4"/>
+					<Add directory="/opt/Apps/local/gcc-4.7.4/lib/gcc/x86_64-unknown-linux-gnu/4.7.4/../../../../include/c++/4.7.4/x86_64-unknown-linux-gnu"/>
+					<Add directory="/opt/Apps/local/gcc-4.7.4/lib/gcc/x86_64-unknown-linux-gnu/4.7.4/../../../../include/c++/4.7.4/backward"/>
+					<Add directory="/opt/Apps/local/gcc-4.7.4/lib/gcc/x86_64-unknown-linux-gnu/4.7.4/include"/>
+					<Add directory="/opt/Apps/local/gcc-4.7.4/include"/>
+					<Add directory="/opt/Apps/local/gcc-4.7.4/lib/gcc/x86_64-unknown-linux-gnu/4.7.4/include-fixed"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/weijiayun/CLionProjects/TCP_CP_socket/cmake-build-debug/Makefile&quot;  VERBOSE=1 TCP_CP_socket/fast"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/weijiayun/CLionProjects/TCP_CP_socket/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/weijiayun/CLionProjects/TCP_CP_socket/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/weijiayun/CLionProjects/TCP_CP_socket/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/weijiayun/CLionProjects/TCP_CP_socket/library.c">
+			<Option target="TCP_CP_socket"/>
+		</Unit>
+		<Unit filename="/home/weijiayun/CLionProjects/TCP_CP_socket/library.h">
+			<Option target="TCP_CP_socket"/>
+		</Unit>
+		<Unit filename="/home/weijiayun/CLionProjects/TCP_CP_socket/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
