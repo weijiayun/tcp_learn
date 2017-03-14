@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/TCP_CP_socket.dir/library.c.o"
+  "CMakeFiles/TCP_CP_socket.dir/tcp_client.c.o"
   "libTCP_CP_socket.pdb"
   "libTCP_CP_socket.a"
 )

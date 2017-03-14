@@ -28,14 +28,17 @@ int main(int argc, char * argv[]){
     if(connect(sock, (struct sockaddr*)&serv_addr, sizeof(serv_addr)) == -1)
         error_handling("connect() error!");
 
-    while (read_len = read(sock, &message[idx++],1)){
-        if(read_len == -1)
-            error_handling("read() error");
-        str_len += read_len;
-    }
+//    while (read_len = read(sock, &message[idx++],1)){
+//        if(read_len == -1)
+//            error_handling("read() error");
+//        str_len += read_len;
+//    }
+    read_len = read(sock, message, sizeof(message));
+    if(read_len == -1)
+        error_handling("read() error");
+
     printf("message from server:%s \n", message);
     printf("Function read call count: %d \n", str_len);
     close(sock);
     return 0;
-
 }

@@ -57,38 +57,38 @@ include CMakeFiles/TCP_CP_socket.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/TCP_CP_socket.dir/flags.make
 
-CMakeFiles/TCP_CP_socket.dir/library.c.o: CMakeFiles/TCP_CP_socket.dir/flags.make
-CMakeFiles/TCP_CP_socket.dir/library.c.o: ../library.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/weijiayun/CLionProjects/TCP_CP_socket/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/TCP_CP_socket.dir/library.c.o"
-	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/TCP_CP_socket.dir/library.c.o   -c /home/weijiayun/CLionProjects/TCP_CP_socket/library.c
+CMakeFiles/TCP_CP_socket.dir/tcp_client.c.o: CMakeFiles/TCP_CP_socket.dir/flags.make
+CMakeFiles/TCP_CP_socket.dir/tcp_client.c.o: ../tcp_client.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/weijiayun/CLionProjects/TCP_CP_socket/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/TCP_CP_socket.dir/tcp_client.c.o"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/TCP_CP_socket.dir/tcp_client.c.o   -c /home/weijiayun/CLionProjects/TCP_CP_socket/tcp_client.c
 
-CMakeFiles/TCP_CP_socket.dir/library.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/TCP_CP_socket.dir/library.c.i"
-	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/weijiayun/CLionProjects/TCP_CP_socket/library.c > CMakeFiles/TCP_CP_socket.dir/library.c.i
+CMakeFiles/TCP_CP_socket.dir/tcp_client.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/TCP_CP_socket.dir/tcp_client.c.i"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/weijiayun/CLionProjects/TCP_CP_socket/tcp_client.c > CMakeFiles/TCP_CP_socket.dir/tcp_client.c.i
 
-CMakeFiles/TCP_CP_socket.dir/library.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/TCP_CP_socket.dir/library.c.s"
-	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/weijiayun/CLionProjects/TCP_CP_socket/library.c -o CMakeFiles/TCP_CP_socket.dir/library.c.s
+CMakeFiles/TCP_CP_socket.dir/tcp_client.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/TCP_CP_socket.dir/tcp_client.c.s"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/weijiayun/CLionProjects/TCP_CP_socket/tcp_client.c -o CMakeFiles/TCP_CP_socket.dir/tcp_client.c.s
 
-CMakeFiles/TCP_CP_socket.dir/library.c.o.requires:
+CMakeFiles/TCP_CP_socket.dir/tcp_client.c.o.requires:
 
-.PHONY : CMakeFiles/TCP_CP_socket.dir/library.c.o.requires
+.PHONY : CMakeFiles/TCP_CP_socket.dir/tcp_client.c.o.requires
 
-CMakeFiles/TCP_CP_socket.dir/library.c.o.provides: CMakeFiles/TCP_CP_socket.dir/library.c.o.requires
-	$(MAKE) -f CMakeFiles/TCP_CP_socket.dir/build.make CMakeFiles/TCP_CP_socket.dir/library.c.o.provides.build
-.PHONY : CMakeFiles/TCP_CP_socket.dir/library.c.o.provides
+CMakeFiles/TCP_CP_socket.dir/tcp_client.c.o.provides: CMakeFiles/TCP_CP_socket.dir/tcp_client.c.o.requires
+	$(MAKE) -f CMakeFiles/TCP_CP_socket.dir/build.make CMakeFiles/TCP_CP_socket.dir/tcp_client.c.o.provides.build
+.PHONY : CMakeFiles/TCP_CP_socket.dir/tcp_client.c.o.provides
 
-CMakeFiles/TCP_CP_socket.dir/library.c.o.provides.build: CMakeFiles/TCP_CP_socket.dir/library.c.o
+CMakeFiles/TCP_CP_socket.dir/tcp_client.c.o.provides.build: CMakeFiles/TCP_CP_socket.dir/tcp_client.c.o
 
 
 # Object files for target TCP_CP_socket
 TCP_CP_socket_OBJECTS = \
-"CMakeFiles/TCP_CP_socket.dir/library.c.o"
+"CMakeFiles/TCP_CP_socket.dir/tcp_client.c.o"
 
 # External object files for target TCP_CP_socket
 TCP_CP_socket_EXTERNAL_OBJECTS =
 
-libTCP_CP_socket.a: CMakeFiles/TCP_CP_socket.dir/library.c.o
+libTCP_CP_socket.a: CMakeFiles/TCP_CP_socket.dir/tcp_client.c.o
 libTCP_CP_socket.a: CMakeFiles/TCP_CP_socket.dir/build.make
 libTCP_CP_socket.a: CMakeFiles/TCP_CP_socket.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/weijiayun/CLionProjects/TCP_CP_socket/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C static library libTCP_CP_socket.a"
@@ -100,7 +100,7 @@ CMakeFiles/TCP_CP_socket.dir/build: libTCP_CP_socket.a
 
 .PHONY : CMakeFiles/TCP_CP_socket.dir/build
 
-CMakeFiles/TCP_CP_socket.dir/requires: CMakeFiles/TCP_CP_socket.dir/library.c.o.requires
+CMakeFiles/TCP_CP_socket.dir/requires: CMakeFiles/TCP_CP_socket.dir/tcp_client.c.o.requires
 
 .PHONY : CMakeFiles/TCP_CP_socket.dir/requires
 

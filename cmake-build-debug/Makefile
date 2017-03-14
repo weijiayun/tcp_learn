@@ -123,32 +123,32 @@ TCP_CP_socket/fast:
 	$(MAKE) -f CMakeFiles/TCP_CP_socket.dir/build.make CMakeFiles/TCP_CP_socket.dir/build
 .PHONY : TCP_CP_socket/fast
 
-library.o: library.c.o
+tcp_client.o: tcp_client.c.o
 
-.PHONY : library.o
+.PHONY : tcp_client.o
 
 # target to build an object file
-library.c.o:
-	$(MAKE) -f CMakeFiles/TCP_CP_socket.dir/build.make CMakeFiles/TCP_CP_socket.dir/library.c.o
-.PHONY : library.c.o
+tcp_client.c.o:
+	$(MAKE) -f CMakeFiles/TCP_CP_socket.dir/build.make CMakeFiles/TCP_CP_socket.dir/tcp_client.c.o
+.PHONY : tcp_client.c.o
 
-library.i: library.c.i
+tcp_client.i: tcp_client.c.i
 
-.PHONY : library.i
+.PHONY : tcp_client.i
 
 # target to preprocess a source file
-library.c.i:
-	$(MAKE) -f CMakeFiles/TCP_CP_socket.dir/build.make CMakeFiles/TCP_CP_socket.dir/library.c.i
-.PHONY : library.c.i
+tcp_client.c.i:
+	$(MAKE) -f CMakeFiles/TCP_CP_socket.dir/build.make CMakeFiles/TCP_CP_socket.dir/tcp_client.c.i
+.PHONY : tcp_client.c.i
 
-library.s: library.c.s
+tcp_client.s: tcp_client.c.s
 
-.PHONY : library.s
+.PHONY : tcp_client.s
 
 # target to generate assembly for a file
-library.c.s:
-	$(MAKE) -f CMakeFiles/TCP_CP_socket.dir/build.make CMakeFiles/TCP_CP_socket.dir/library.c.s
-.PHONY : library.c.s
+tcp_client.c.s:
+	$(MAKE) -f CMakeFiles/TCP_CP_socket.dir/build.make CMakeFiles/TCP_CP_socket.dir/tcp_client.c.s
+.PHONY : tcp_client.c.s
 
 # Help Target
 help:
@@ -159,9 +159,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... TCP_CP_socket"
-	@echo "... library.o"
-	@echo "... library.i"
-	@echo "... library.s"
+	@echo "... tcp_client.o"
+	@echo "... tcp_client.i"
+	@echo "... tcp_client.s"
 .PHONY : help
 
 
